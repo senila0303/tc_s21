@@ -1,0 +1,24 @@
+@media only screen and (max-width: 767px) {
+	.dish-col .food-img{
+		width: 100%;
+	}
+	.dish-row .col-md-6:nth-child(odd) {
+		padding-right: 0;
+	}
+	.dish-row .col-md-6:nth-child(even) {
+		padding-left: 0;
+	}
+	.dish-col{
+		padding: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.dish-col .form-check {
+		padding-left: 0;
+	}
+	.dish-col2 .food-img{
+		width: 50%;
+		margin: 0 auto;
+	}
+
+}
